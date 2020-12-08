@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+data/*
+!data/.gitkeep
+
+# To encourage best practices, we're ignoring some common data/output types that are being dumped into git repo's
+*.png
+*.pickle
+*.ipynb
+*.csv
+*.tsv
+*.pdf
+
+# output
+output/*
+!output/.gitkeep
